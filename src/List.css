@@ -1,0 +1,85 @@
+.list-items {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  border: 1px solid #e2dfdf;
+  border-radius: 6px;
+}
+
+.items-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+}
+.round-icon {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 3px solid rgb(224, 41, 41);
+  margin-right: 1.4rem;
+}
+
+.items-right {
+  margin-right: 1rem;
+}
+
+.items-right span {
+  background-color: rgb(228, 226, 226);
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0.4rem;
+  padding: 6px;
+  border-radius: 3px;
+}
+.left-title h5 {
+  font-size: 15px;
+  margin: 10px 0 0 0;
+}
+.left-title span {
+  font-size: 13px;
+  color: gray;
+  line-height: 2.5;
+}
+
+/* ====================HEADER==================== */
+
+.todo-header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 2px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.todo-button .btn {
+  padding: 16px;
+  background-color: rgb(83, 82, 82);
+  border-radius: 6px;
+  color: rgb(250, 244, 232);
+  width: 9rem;
+  height: 2.9rem;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+/* =================FOOTER==================== */
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+}
